@@ -1,3 +1,6 @@
+
+
+
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
@@ -44,12 +47,37 @@ $('document').ready(function(){
 		});
 	});
 
+
+
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
+
 	});
+
+	$('#bannar_coming1').click(function(){
+		$('.bannar1').addClass('bannar-come');
+		$(this).fadeOut('slow').delay(6000).promise().done(function(){
+			var imageToShow = document.getElementById('.bannar1');
+			if (imageToShow.style.display === 'none') {
+				// Ẩn các phần tử ảnh khác (nếu có)
+				var allImages = document.getElementsByTagName('img');
+				for (var i = 0; i < allImages.length; i++) {
+					allImages[i].style.display = 'none';
+				}
+				
+				// Hiển thị ảnh khi nó đã được ẩn
+				imageToShow.style.display = 'none';
+			}
+		
+			
+		});
+
+	});
+
+
 
 	function loopOne() {
 		var randleft = 1000*Math.random();
@@ -168,7 +196,11 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
+		
 		});
+		
+
+	
 		
 		var i;
 
