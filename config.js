@@ -2,7 +2,7 @@
 var config = {
    
     texts: [
-        "Meo Hồng à!",    
+        "Giang Thị Phương à!",    
         "Chúc mừng sinh nhật bạn", 
         "Tuổi mới hay ăn chóng lớn",
         "Sức khoẻ dồi dào",
@@ -11,6 +11,8 @@ var config = {
         "Có nhiều người yêu =)))",
         "Thật nhiều hạnh phúc",
         "Công việc suôn sẻ",
+        "Bớt Suy Mấy Chuyện Tào Lao",
+        "Sống Vui Sống Khỏe Nhé"
         
     ],
 
