@@ -2,8 +2,8 @@
 var config = {
    
     texts: [
-        "Giang Thị Phương à!",    
-        "Chúc mừng sinh nhật bạn", 
+        "Em Gái Nguyên Của Tôi ơi ",    
+        "Chúc mừng sinh nhật em", 
         "Tuổi mới hay ăn chóng lớn",
         "Sức khoẻ dồi dào",
         "Phát lộc phát tài",
@@ -27,7 +27,7 @@ var config = {
         cake_fadein: "Thêm chiếc bánh ngon nhất từ trước đến nay",
         light_candle: "Thêm nến nào",
         wish_message: "Happy Birthday",
-        story: "Tôi có lời chúc đến bạn...",
+        story: "Tôi có lời chúc đến em...",
     },
 
    
