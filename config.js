@@ -2,7 +2,7 @@
 var config = {
    
     texts: [
-        "Bạn Linh À    ",    
+        "Bạn Linh À",    
         "Chúc mừng sinh nhật bạn", 
         "Sức khoẻ dồi dào",
         "Phát lộc phát tài",
